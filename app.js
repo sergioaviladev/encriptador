@@ -1,7 +1,7 @@
 (() => {
     setMessage(`
             <div class="aside-message" >
-                <img id="img-not-found" src="assets/not-found.png">
+                <img id="img-not-found" src="not-found.png">
                 <h2>Ningún mensaje fue encontrado</h2>
                 <p>Ingresa el texto que deseas encriptar o desencriptar</p>
             </div>
@@ -75,7 +75,7 @@ function onClickBtnApp(tipo) {
     if (texto == '' || texto == undefined || texto == null) {
         setMessage(`
             <div class="aside-message" >
-                <img id="img-not-found" src="assets/not-found.png">
+                <img id="img-not-found" src="not-found.png">
                 <h2>Ningún mensaje fue encontrado</h2>
                 <p>Ingresa el texto que deseas encriptar o desencriptar</p>
             </div>
@@ -117,7 +117,7 @@ function onChangeTextArea() {
     if (texto == '' || texto == undefined || texto == null) {
         setMessage(`
             <div class="aside-message" >
-                <img id="img-not-found" src="assets/not-found.png">
+                <img id="img-not-found" src="not-found.png">
                 <h2>Ningún mensaje fue encontrado</h2>
                 <p>Ingresa el texto que deseas encriptar o desencriptar</p>
             </div>
