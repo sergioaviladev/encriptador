@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-8 col-12-sm col-12-md">
+            <img src="./assets/logo.png" alt="" width="30px">
+            
+            <textarea name="texto" id="texto" placeholder="Ingrese texto aqui" onkeydown="onChangeTextArea()"></textarea>
+
+            <small for="">&#x1F6C8; Solo letras minusculas y sin acento</small>
+            <br>
+            <br>
+
+            <button class="btn-blue ripple" onclick="onClickBtnApp('encriptar')">
+                Encriptar
+            </button>
+            <button class="btn-blue-outlined ripple" onclick="onClickBtnApp('desencriptar')">
+                Desencriptar
+            </button>
+        </div>
+
+        <div class="col-4 col-12-sm col-12-md">
+            <div id="message"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
